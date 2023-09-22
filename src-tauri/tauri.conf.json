@@ -11,7 +11,12 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "window": {
+        "all": true,
+        "minimize": true,
+        "close": true,
+        "startDragging": true
+      }
     },
     "bundle": {
       "active": true,
@@ -58,7 +63,8 @@
         "height": 600,
         "resizable": true,
         "title": "qmcl",
-        "width": 800
+        "width": 800,
+        "decorations": false
       }
     ]
   }

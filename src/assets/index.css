@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(60, 182, 238, 0.795);
+  height: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  color: white;
+}
+
+.navbar-left {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.yellow-button {
+  width: 37px;
+  height: 37px;
+  cursor: pointer;
+}
+
+.red-button {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+.button-spacing {
+  margin-right: 10px;
+}
